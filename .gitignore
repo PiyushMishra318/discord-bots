@@ -1,0 +1,30 @@
+# Ignore the virtual environment created by Poetry
+__pypackages__/
+
+# Ignore Poetry's lock file
+poetry.lock
+
+# Ignore the generated .venv directory (used by some editors)
+.venv/
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore any local development configurations
+.pytest_cache/
+.coverage
+.tox/
+
+# Ignore environment-specific configuration files
+*.env
+
+# Ignore local cache directories (may vary by system)
+__pycache__/
+.pycache/
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
